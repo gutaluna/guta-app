@@ -8,10 +8,10 @@ st.title("Do que a Guta é mais apaixonada?")
 # Pergunta para o usuário
 resposta = st.selectbox(
     "Escolha uma das opções:",
-    ("moto", "praia", "carro")
+    ("Selecione uma opção", "moto", "praia", "carro")
 )
 
-# Lógica para mostrar a resposta
+# Lógica para mostrar a resposta somente após a seleção
 if resposta == "moto":
     # Gerar um coração
     t = np.linspace(0, 2 * np.pi, 100)
